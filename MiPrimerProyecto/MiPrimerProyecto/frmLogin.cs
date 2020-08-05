@@ -73,5 +73,6 @@ namespace MiPrimerProyecto
         {
             this.Close();
         }
+
     }
 }

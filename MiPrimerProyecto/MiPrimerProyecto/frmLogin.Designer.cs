@@ -38,10 +38,10 @@
             // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(89, 208);
-            this.btnIngresar.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.btnIngresar.Location = new System.Drawing.Point(208, 464);
+            this.btnIngresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(66, 40);
+            this.btnIngresar.Size = new System.Drawing.Size(154, 89);
             this.btnIngresar.TabIndex = 2;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
@@ -49,10 +49,10 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(208, 208);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.btnSalir.Location = new System.Drawing.Point(485, 464);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(66, 40);
+            this.btnSalir.Size = new System.Drawing.Size(154, 89);
             this.btnSalir.TabIndex = 3;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -60,53 +60,53 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(162, 82);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.txtUsuario.Location = new System.Drawing.Point(378, 183);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(132, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(303, 35);
             this.txtUsuario.TabIndex = 0;
             // 
             // txtClave
             // 
-            this.txtClave.Location = new System.Drawing.Point(162, 121);
-            this.txtClave.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.txtClave.Location = new System.Drawing.Point(378, 270);
+            this.txtClave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtClave.Name = "txtClave";
-            this.txtClave.Size = new System.Drawing.Size(132, 20);
+            this.txtClave.Size = new System.Drawing.Size(303, 35);
             this.txtClave.TabIndex = 1;
             // 
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Location = new System.Drawing.Point(52, 82);
-            this.lblUsuario.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
+            this.lblUsuario.Location = new System.Drawing.Point(121, 183);
+            this.lblUsuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(101, 13);
+            this.lblUsuario.Size = new System.Drawing.Size(230, 29);
             this.lblUsuario.TabIndex = 5;
             this.lblUsuario.Text = "Nombre de Usuario:";
             // 
             // lblPasswd
             // 
             this.lblPasswd.AutoSize = true;
-            this.lblPasswd.Location = new System.Drawing.Point(86, 121);
-            this.lblPasswd.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
+            this.lblPasswd.Location = new System.Drawing.Point(201, 270);
+            this.lblPasswd.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPasswd.Name = "lblPasswd";
-            this.lblPasswd.Size = new System.Drawing.Size(64, 13);
+            this.lblPasswd.Size = new System.Drawing.Size(142, 29);
             this.lblPasswd.TabIndex = 4;
             this.lblPasswd.Text = "Contraseña:";
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(355, 328);
+            this.ClientSize = new System.Drawing.Size(828, 732);
             this.Controls.Add(this.lblPasswd);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.txtClave);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnIngresar);
-            this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmLogin";
